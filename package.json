@@ -1,0 +1,11 @@
+{
+  "name": "cronocodex",
+  "private": true,
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "install:backend": "npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  }
+}
