@@ -1,0 +1,17 @@
+{
+  "name": "cronocodex-backend",
+  "version": "1.0.0",
+  "description": "API de control horario con roles para RRHH",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "rrhh",
+    "time-tracking",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
