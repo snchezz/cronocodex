@@ -37,8 +37,13 @@ frontend/  → SPA React servida con CDN (sin build step)
 ### Puesta en marcha local
 
 ```bash
+# Desde la carpeta raíz del repositorio
+npm install         # prepara el workspace (instala dependencias en backend/)
+npm start           # arranca la API (proxy al script de backend/)
+
+# Alternativa manual si prefieres entrar a la carpeta
 cd backend
-npm install # no instala paquetes externos, solo inicializa la carpeta node_modules
+npm install
 npm start
 ```
 
